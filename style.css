@@ -1,0 +1,179 @@
+/*General*/
+
+p { 
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color:rgb(231, 0, 0);
+    font-family:"Play", sans-serif;
+}
+
+a {
+    color: silver;
+}
+
+hr {
+    border-color: rgb(177, 0, 0);
+}
+
+/*Classes*/
+
+.fixedprop {
+    text-align:center;
+    background-color: rgba(202, 0, 0, 0.308);
+    align-items: center;
+    line-height: 20px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.autobiographies {
+    color:rgb(63, 53, 53);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bio {
+    background-color:gray;
+    width: 45%;
+    padding: 20px;
+    height: 85%;
+    transform: translateX(50px);
+}
+
+.pagelink {
+    color:whitesmoke;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 10px;
+    font-size: 16px;
+    flex: 1;
+    justify-self: end;
+}
+
+.pagelink:hover {
+    color: red;
+    font-weight: bold;
+    animation: ifmouse 1s 1;
+}
+
+@keyframes ifmouse {
+    from {color: whitesmoke;}
+    to {color:red;}
+}
+
+.linkstopages {
+    /*display: flex;*/
+    width: 400px;
+}
+
+.contacts {
+    flex: 1;
+    justify-self: left;
+
+}
+
+.contacts1 > img {
+    justify-self:left;
+    width: 20px;
+    height:20px;
+    padding-right:10px;
+}
+
+.contacts1 > img:hover {
+    justify-self:left;
+    width: 22px;
+    height:22px;
+    padding-right:10px;
+    animation: ifmouseimg 0.2s 1;
+}
+
+@keyframes ifmouseimg {
+    from {width: 20px}
+    to {width: 22px;}
+    from {height: 20px}
+    to {height: 22px;}
+}
+
+.topdog {
+    color:orangered;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.nonbio {
+    color:whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-size:14px;
+    width:50%;
+    transform:translateX(50%)
+}
+
+.newsbio {
+    background-color: mediumpurple;
+    padding: 20px;
+    width: 45%;
+    height:fit-content;
+}
+
+/*ID's*/
+
+#stupdi {
+    color: silver;
+    font-size:xx-small;
+}
+
+#godloves {
+    font-size: 12px;
+}
+
+#DiaDavis {
+    font-size: 2px;
+    color:antiquewhite;
+}
+
+#motto {
+    color:orangered;
+}
+
+#teamemail {
+    display:inline-block;
+    font-size: 14px;
+}
+
+#teamemail:hover {
+    animation:hoverovermail 0.2s 1;
+}
+
+@keyframes hoverovermail{
+    from {font-size: 14px;}
+    to {font-size: 15px;}
+}
+
+/*Specific's To*/
+
+#index-body-page {
+    background-color: rgb(0, 0, 0);
+}
+
+#about-us-page {
+    background-color:rgb(0, 0, 0);
+}
+
+#news-page{
+    background-image:url(https://i.makeagif.com/media/2-03-2019/7unfTH.gif);
+    background-size: 100%;
+    background-repeat:repeat;
+}
+
+#donations-page {
+    background-color:rgb(0, 0, 0);
+}
