@@ -1,8 +1,4 @@
 @font-face {
-    font-family: "EB Garamond SC";
-    src: url("C:\Users\skype\.vscode\Website\EBGaramondSC.otf");
+    font-family: EBGaramondSC;
+    src: url('Website\EBGaramondSC.otf');
   }
-
-  
-
-/*"./fonts/MyCustomFont.ttf
